@@ -3,11 +3,6 @@ pipeline {
     agent any
     
     stages {
-        stage('Clone') {
-            steps {
-                git 'https://github.com/Yellareddy07/Library-Management-System-Console-.git'
-            }
-        }
         
         stage('Build') {
             steps {
